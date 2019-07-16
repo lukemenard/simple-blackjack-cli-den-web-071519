@@ -4,8 +4,8 @@ end
 
 def deal_card
   card = 0
-  puts card.rand(12)
-
+  card = rand(12)
+  puts card
 end
 
 def display_card_total
